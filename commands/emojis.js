@@ -106,7 +106,8 @@ module.exports = {
                                 if (needReaction) {
                                     sentence.reactions.cache.forEach((messageReaction) => {
                                         let reaction = messageReaction._emoji.toString();
-                                        if (reactionEmojis[reaction] >= 0) reactionEmojis[reaction]++;
+                                        let count = messageReaction.count;
+                                        if (reactionEmojis[reaction] >= 0) reactionEmojis[reaction] += count;
                                     });
                                 }
 
