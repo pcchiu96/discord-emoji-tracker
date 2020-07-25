@@ -4,10 +4,10 @@ A discord emoji tracker that my discord group used weekly to find the popularity
 
 # Commands
 
--   prefix emojis : gets all the emojis usage in the current channel for the past 10k messages.
--   prefix emojis -a : gets all the emojis in every channel.
--   prefix emojis -[number] : emojis from "number" days ago.
--   prefix emojis -[emoji(s)] : only track the specific "emoji(s)".
+-   prefix emojis : gets all the emojis usage in the current channel exactly one day ago.
+-   prefix emojis -a : changes the search location to all visible channels to the bot.
+-   prefix emojis -[number] : get emojis from [number] days ago.
+-   prefix emojis -[emojis] : only track the specific [emojis].
 
 # Examples
 
