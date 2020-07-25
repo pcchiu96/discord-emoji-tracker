@@ -1,5 +1,5 @@
 const { performance } = require("perf_hooks");
-const { prefix } = require("../config.json");
+const { prefix } = require("./config.json");
 module.exports = {
     name: "emojis",
     description: "Get emoji(s) from the current channel and their usage",
